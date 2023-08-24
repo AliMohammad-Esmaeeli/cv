@@ -1,0 +1,26 @@
+{
+  "Fa": {
+    "name": "علی محمد",
+    "Lastname": "اسماعیلی",
+    "Programmer": "برنامه نویس وب",
+    "chioseLang": "انتخاب زبان",
+    "article": " وبلاگ",
+    "contact": " ارتباط با من",
+    "about me": "درباره من",
+    "downloadCv": "دانلود رزومه",
+    "projects": "پروژه ها",
+    "recentBlogs":"وبلاگ های اخیر"
+  },
+  "En": {
+    "name": "Ali Mohammad",
+    "Lastname": "Esmaeeli",
+    "chioseLang": "Change Language",
+    "article": "Blogs",
+    "contact": "Contact",
+    "Programmer": "Programmer",
+    "about me": "About me",
+    "downloadCv": "Download cv",
+    "projects": "Projects",
+    "recentBlogs":"Recent Blogs"
+  }
+}

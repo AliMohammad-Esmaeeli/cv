@@ -4,9 +4,7 @@ import Menu from "@/components/main page/menu";
 import Fotter from "@/components/main page/Fotter";
 export default function Home() {
   return (
-    <div
-      className="bg-white text-black dark:bg-stone-950 dark:text-white "
-    >
+    <div className="bg-white text-black dark:bg-stone-950 dark:text-white overflow-x-hidden">
       <Nav Lang="Fa" />
       <About Lang="Fa" />
       <Menu Lang="Fa" />

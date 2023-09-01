@@ -178,7 +178,7 @@ export default function About(props: propstype) {
         )}
         <div className="my-10 flex justify-center items-center">
           <a
-            href="https://ir31.uploadboy.com/d/yl0xj8r7cejd/rnnizpw5jcsshcohf4xhpqub6sh3wsfy2zk6tmealtxawfxwwrxkhdy46izw6ynfis67whx3/AliMohammadEsmaeeli.pdf"
+            href="/AliMohammadEsmaeeli.pdf"
             download={"Ali Mohammad Esmaeeli cv"}
             className="h-16 w-36 bg-rose-600 text-white text-lg rounded-full shadow-lg shadow-rose-400 hover:shadow-rose-500 mr-10 md:mr-20 flex justify-center items-center"
           >

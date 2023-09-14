@@ -1,14 +1,14 @@
 "use client";
 import Link from "next/link";
-import Image from "next/image";
-import { useState, Dispatch, SetStateAction } from "react";
+import { useState } from "react";
+import SideNav from "./sideNav";
 import data from "@/Data/data.json";
-type propstype = {
-  Lang: string;
-};
+
+interface propstype {
+  Lang: string,
+}
 
 export default function Nav(props: propstype) {
-  const [isNavOpen, setIsNavOpen] = useState(false);
   const [isLangOpen, setIsLangOpen] = useState(false);
   return (
     <div>
@@ -113,47 +113,7 @@ export default function Nav(props: propstype) {
               </Link>
             </div>
           </div>
-          <button
-            onClick={() => setIsNavOpen(isNavOpen === false ? true : false)}
-            className="block md:hidden m-3 relative"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-8 h-8"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-              />
-            </svg>
-            {isNavOpen && (
-              <ul className="bg-slate-100 text-black text-2xl h-36 w-52 p-5 absolute top-10 -right-4 z-10 rounded-3xl grid grid-rows-3 place-items-center">
-                <div className="h-3 w-3 bg-slate-100 absolute ml-36 mb-36 rotate-45"></div>
-                <li className="order-1">
-                  <Link href="/blogs">
-                    {props.Lang === "Fa" ? data.Fa.article : data.En.article}
-                  </Link>
-                </li>
-                <li className="order-2">
-                  <Link href="#about-me">
-                    {props.Lang === "Fa"
-                      ? data.Fa["about me"]
-                      : data.En["about me"]}
-                  </Link>
-                </li>
-                <li className="order-3">
-                  <Link href="#contact">
-                    {props.Lang === "Fa" ? data.Fa.contact : data.En.contact}
-                  </Link>
-                </li>
-              </ul>
-            )}
-          </button>
+          <SideNav Lang={props.Lang} />
         </nav>
       </header>
     </div>

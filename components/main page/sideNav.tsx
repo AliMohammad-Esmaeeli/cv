@@ -7,10 +7,10 @@ interface propstype {
 
 export default function SideNav(props: propstype) {
     return (
-        <div className="block md:hidden">
+        <div className="block md:hidden text-white">
             <button
                 onClick={() => { document.getElementById("mySidenav")!.style.width = "250px" }}
-                className="block md:hidden m-3"
+                className="block md:hidden m-3 text-black"
             >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"

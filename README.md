@@ -1,4 +1,3 @@
 # Ali Mohammad Esmaeeli 
-## **My CV**
+## [View website!✌](https://www.alimohammad.blog/)
 ![webpage](./screenshots/webpage.png)
-[Check website😊](https://www.alimohammad.blog/)

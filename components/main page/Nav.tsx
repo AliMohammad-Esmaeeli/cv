@@ -16,7 +16,7 @@ export default function Nav(props: propstype) {
         <nav className="flex justify-between items-center lg:justify-end">
           <div className="flex justify-center items-center">
             {/* choise mode */}
-            {/* <div className="h-8 w-14 rounded-full bg-slate-200 mx-2 relative">
+            <div className="h-8 w-14 rounded-full bg-slate-200 mx-2 relative">
               <span className=" flex items-center justify-around mt-1">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -45,13 +45,15 @@ export default function Nav(props: propstype) {
                   if (div.currentTarget.classList.contains("ms-1")) {
                     div.currentTarget.classList.remove("ms-1");
                     div.currentTarget.classList.add("ms-7");
+                    document.querySelector("html")?.classList.add("dark");
                   } else {
                     div.currentTarget.classList.remove("ms-7");
                     div.currentTarget.classList.add("ms-1");
+                    document.querySelector("html")?.classList.remove("dark");
                   }
                 }}
               ></div>
-            </div> */}
+            </div>
             {/* choise lang */}
             <button
               onClick={() => setIsLangOpen(isLangOpen === false ? true : false)}

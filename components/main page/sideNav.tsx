@@ -10,7 +10,7 @@ export default function SideNav(props: propstype) {
         <div className="block md:hidden text-white">
             <button
                 onClick={() => { document.getElementById("mySidenav")!.style.width = "250px" }}
-                className="block md:hidden m-3 text-black"
+                className="block md:hidden m-3 text-black dark:text-white"
             >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"

@@ -22,6 +22,7 @@ export default function RootLayout({
         <title>Ali Mohammad I علی محمد</title>
         <meta name="description" content="Ali Mohammad Esmaeeli 
 Frontend React/Nextjs Developer 👨‍💻🧋" />
+        <meta name="theme-color" content="#18dca4" />
 
         {/* Facebook Meta Tags  */}
         <meta property="og:url" content="https://www.alimohammad.blog/" />
@@ -39,7 +40,7 @@ Frontend React/Nextjs Developer 👨‍💻🧋" />
         <meta name="twitter:description" content="Ali Mohammad Esmaeeli 
 Frontend React/Nextjs Developer 👨‍💻🧋" />
         <meta name="twitter:image" content="https://avatars.githubusercontent.com/AliMohammad-Esmaeeli" />
-        
+
       </Head>
       <body className={lalezar.className}>{children}</body>
     </html>

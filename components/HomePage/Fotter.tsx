@@ -16,7 +16,7 @@ export default function Fotter(props: propstype) {
           alt="footer"
         />
       </div>
-      <footer className="h-72 bg-[#18dca4] text-black flex flex-col justify-center items-center">
+      <footer className="h-96 bg-[#18dca4] text-black flex flex-col justify-center items-center overflow-y-hidden">
         <div
           id="contact"
           className="bg-white rounded-3xl shadow-xl w-72 p-8 flex flex-col justify-center items-center"
@@ -177,6 +177,35 @@ export default function Fotter(props: propstype) {
                   </svg>
                 </span>
                 <span> Email</span>
+              </a>
+            </li>
+            <li className="p-1 hover:text-orange-600">
+              <a
+                className="flex justify-center items-center"
+                href="https://x.com/AliMoha03254987?t=9GqSqmKivggIzcHLTiTiyQ&s=09"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="mr-1">
+                  <svg
+                    data-testid="geist-icon"
+                    height={23}
+                    widths={23}
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    viewBox="0 0 16 16"
+                    width="16"
+                    aria-label=""
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M0.5 0.5H5.75L9.48421 5.71053L14 0.5H16L10.3895 6.97368L16.5 15.5H11.25L7.51579 10.2895L3 15.5H1L6.61053 9.02632L0.5 0.5ZM12.0204 14L3.42043 2H4.97957L13.5796 14H12.0204Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </span>
+                <span> Twitter</span>
               </a>
             </li>
           </ul>

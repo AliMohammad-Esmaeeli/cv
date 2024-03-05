@@ -1,15 +1,20 @@
-import Nav from "@/components/main page/Nav";
-import Chat from "@/components/main page/Chat";
-import About from "@/components/main page/About";
-import Menu from "@/components/main page/menu";
-import Fotter from "@/components/main page/Fotter";
+import Nav from "@/components/HomePage/Nav";
+import Chat from "@/components/HomePage/Chat";
+import About from "@/components/HomePage/About";
+import Skills from "@/components/HomePage/Skills";
+import Fotter from "@/components/HomePage/Fotter";
+import { Suspense } from "react";
+import Loading from "@/components/HomePage/Loading";
+
 export default function page() {
   return (
-    <div className="bg-white text-black dark:bg-stone-950 dark:text-white overflow-x-hidden">
+    <div className="min-h-dvh scroll-smooth overflow-x-hidden select-none appearance-none bg-white text-black dark:bg-stone-950 dark:text-white">
       <Nav Lang="En" />
       <Chat />
       <About Lang="En" />
-      <Menu Lang="En" />
+      <Suspense fallback={<Loading />}>
+        <Skills Lang="En" />
+      </Suspense>
       <Fotter Lang="En" />
     </div>
   );

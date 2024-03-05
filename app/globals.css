@@ -3,12 +3,7 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: lalezar;
-  src: url(../public/fonts/Lalezar-Regular.ttf);
-}
-
-@font-face {
-  font-family: yekan;
+  font-family: yekanBakh;
   src: url(../public/fonts/YekanBakh.ttf);
 }
 
@@ -16,12 +11,8 @@ html {
   scroll-behavior: smooth;
 }
 
-* {
-  font-family: yekan;
-}
-
-.lalezar {
-  font-family: lalezar;
+.font-yekanBakh {
+  font-family: yekanBakh;
 }
 
 ::-webkit-scrollbar {
@@ -62,7 +53,7 @@ html {
 .container {
   display: grid;
   place-items: center;
-  width: 110px;
+  width: 145px;
 }
 
 .typed {

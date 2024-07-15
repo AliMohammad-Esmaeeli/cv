@@ -52,7 +52,7 @@ export default function Skills(props: propstype) {
       >
         <SwiperSlide>
           <Tilt options={defaultOptions}>
-            <div className="bg-red-400 w-44 h-44 rounded-3xl p-10 m-5 flex justify-center items-center">
+            <div className="bg-red-400 w-36 h-36 md:w-44 md:h-44 rounded-3xl p-10 m-5 flex justify-center items-center">
               <svg
                 className="h-28 w-28"
                 xmlns="http://www.w3.org/2000/svg"
@@ -92,7 +92,7 @@ export default function Skills(props: propstype) {
         </SwiperSlide>
         <SwiperSlide>
           <Tilt options={defaultOptions}>
-            <div className="bg-blue-400 w-44 h-44 rounded-3xl  p-10 m-5 flex justify-center items-center">
+            <div className="bg-blue-400 w-36 h-36 md:w-44 md:h-44 rounded-3xl  p-10 m-5 flex justify-center items-center">
               <svg
                 className="w-28 h-28"
                 xmlns="http://www.w3.org/2000/svg"
@@ -122,7 +122,7 @@ export default function Skills(props: propstype) {
         </SwiperSlide>
         <SwiperSlide>
           <Tilt options={defaultOptions}>
-            <div className="bg-orange-400 w-44 h-44 rounded-3xl  p-10 m-5 flex justify-center items-center">
+            <div className="bg-orange-400 w-36 h-36 md:w-44 md:h-44 rounded-3xl  p-10 m-5 flex justify-center items-center">
               <svg
                 className="w-28 h-28 rounded-2xl"
                 xmlns="http://www.w3.org/2000/svg"
@@ -136,7 +136,7 @@ export default function Skills(props: propstype) {
         </SwiperSlide>
         <SwiperSlide>
           <Tilt options={defaultOptions}>
-            <div className="bg-indigo-400 w-44 h-44 rounded-3xl  p-10 m-5 flex justify-center items-center">
+            <div className="bg-indigo-400 w-36 h-36 md:w-44 md:h-44 rounded-3xl  p-10 m-5 flex justify-center items-center">
               <svg
                 className="w-28 h-28 rounded-2xl"
                 fill="none"
@@ -159,7 +159,7 @@ export default function Skills(props: propstype) {
         </SwiperSlide>
         <SwiperSlide>
           <Tilt options={defaultOptions}>
-            <div className="bg-purple-400 w-44 h-44 rounded-3xl  p-10 m-5 flex justify-center items-center">
+            <div className="bg-purple-400 w-36 h-36 md:w-44 md:h-44 rounded-3xl  p-10 m-5 flex justify-center items-center">
               <Image
                 src="/bootstrap.png"
                 height={100}
@@ -171,7 +171,7 @@ export default function Skills(props: propstype) {
         </SwiperSlide>
         <SwiperSlide>
           <Tilt options={defaultOptions}>
-            <div className="bg-purple-950 w-44 h-44 rounded-3xl  p-10 m-5 flex justify-center items-center">
+            <div className="bg-purple-950 w-36 h-36 md:w-44 md:h-44 rounded-3xl  p-10 m-5 flex justify-center items-center">
               <svg
                 className="w-28 h-28 "
                 xmlns="http://www.w3.org/2000/svg"
@@ -197,7 +197,7 @@ export default function Skills(props: propstype) {
         </SwiperSlide>
         <SwiperSlide>
           <Tilt options={defaultOptions}>
-            <div className="bg-green-400 w-44 h-44 rounded-3xl  p-10 m-5 flex justify-center items-center">
+            <div className="bg-green-400 w-36 h-36 md:w-44 md:h-44 rounded-3xl  p-10 m-5 flex justify-center items-center">
               <svg
                 width="100%"
                 height="100%"
@@ -218,7 +218,7 @@ export default function Skills(props: propstype) {
         </SwiperSlide>
         <SwiperSlide>
           <Tilt options={defaultOptions}>
-            <div className="bg-violet-400 w-44 h-44 rounded-3xl  p-10 m-5 flex justify-center items-center">
+            <div className="bg-violet-400 w-36 h-36 md:w-44 md:h-44 rounded-3xl  p-10 m-5 flex justify-center items-center">
               <svg
                 aria-label="Next.js logotype"
                 height="18"
@@ -243,7 +243,7 @@ export default function Skills(props: propstype) {
         </SwiperSlide>
         <SwiperSlide>
           <Tilt options={defaultOptions}>
-            <div className="bg-fuchsia-400 w-44 h-44 rounded-3xl  p-10 m-5 flex justify-center items-center">
+            <div className="bg-fuchsia-400 w-36 h-36 md:w-44 md:h-44 rounded-3xl  p-10 m-5 flex justify-center items-center">
               <svg
                 width="410"
                 height="404"
@@ -290,7 +290,7 @@ export default function Skills(props: propstype) {
         </SwiperSlide>
         <SwiperSlide>
           <Tilt options={defaultOptions}>
-            <div className="bg-violet-400 w-44 h-44 rounded-3xl  p-10 m-5 flex justify-center items-center">
+            <div className="bg-violet-400 w-36 h-36 md:w-44 md:h-44 rounded-3xl  p-10 m-5 flex justify-center items-center">
               <div className="grid place-items-center">
                 <svg
                   width={80}
@@ -316,14 +316,14 @@ export default function Skills(props: propstype) {
         </SwiperSlide>
         <SwiperSlide>
           <Tilt options={defaultOptions}>
-            <div className="bg-fuchsia-400 w-44 h-44 rounded-3xl  p-10 m-5 flex justify-center items-center">
+            <div className="bg-fuchsia-400 w-36 h-36 md:w-44 md:h-44 rounded-3xl  p-10 m-5 flex justify-center items-center">
               <Image src={"/docker1.png"} height={100} width={100} alt="Docker" />
             </div>
           </Tilt>
         </SwiperSlide>
         <SwiperSlide>
           <Tilt options={defaultOptions}>
-            <div className="bg-purple-400 w-44 h-44 rounded-3xl  p-10 m-5 flex justify-center items-center">
+            <div className="bg-purple-400 w-36 h-36 md:w-44 md:h-44 rounded-3xl  p-10 m-5 flex justify-center items-center">
               <svg
                 className="w-28 h-28"
                 id="Group_1"
@@ -420,7 +420,7 @@ export default function Skills(props: propstype) {
         </SwiperSlide>
         <SwiperSlide>
           <Tilt options={defaultOptions}>
-            <div className="bg-blue-900 w-44 h-44 rounded-3xl  p-10 m-5 flex justify-cnter items-center">
+            <div className="bg-blue-900 w-36 h-36 md:w-44 md:h-44 rounded-3xl  p-10 m-5 flex justify-cnter items-center">
               <Image
                 className="h-28 w-28"
                 height={100}
@@ -433,7 +433,7 @@ export default function Skills(props: propstype) {
         </SwiperSlide>
         <SwiperSlide>
           <Tilt options={defaultOptions}>
-            <div className="bg-yellow-400 w-44 h-44 rounded-3xl  p-10 m-5 flex justify-center items-center">
+            <div className="bg-yellow-400 w-36 h-36 md:w-44 md:h-44 rounded-3xl  p-10 m-5 flex justify-center items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -449,7 +449,7 @@ export default function Skills(props: propstype) {
         </SwiperSlide>
         <SwiperSlide>
           <Tilt options={defaultOptions}>
-            <div className="bg-emerald-400 w-44 h-44 rounded-3xl  p-10 m-5">
+            <div className="bg-emerald-400 w-36 h-36 md:w-44 md:h-44 rounded-3xl  p-10 m-5">
               <svg width="98" height="96" xmlns="http://www.w3.org/2000/svg">
                 <path
                   fill-rule="evenodd"

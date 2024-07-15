@@ -7,12 +7,14 @@
   src: url(../public/fonts/YekanBakh.ttf);
 }
 
-html {
-  scroll-behavior: smooth;
+@layer utilities {
+  .font-yekanBakh {
+    font-family: yekanBakh;
+  }
 }
 
-.font-yekanBakh {
-  font-family: yekanBakh;
+html {
+  scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
@@ -32,7 +34,7 @@ html {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 999;
   top: 0;
   left: 0;
   overflow-x: hidden;
@@ -88,7 +90,7 @@ html {
   }
 
   to {
-    width: 125%
+    width: 155%
   }
 }
 

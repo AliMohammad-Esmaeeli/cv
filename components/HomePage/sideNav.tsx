@@ -22,7 +22,7 @@ export default function SideNav(props: propstype) {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
                 </svg>
             </button>
-            <div id="mySidenav" className="sidenav text-2xl flex flex-col items-center gap-3 bg-white text-black dark:bg-stone-950 dark:text-white">
+            <div id="mySidenav" className="sidenav text-2xl flex flex-col justify-center items-center gap-16 bg-white text-black dark:bg-stone-950 dark:text-white">
                 <a
                     href="javascript:void(0)"
                     className="absolute right-6 top-2 ml-14"

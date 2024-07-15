@@ -2,7 +2,7 @@
   "Fa": {
     "name": "علی محمد",
     "Lastname": "اسماعیلی",
-    "Programmer": "برنامه نویس وب",
+    "Programmer": "برنامه نویس فرانت اند",
     "chioseLang": "انتخاب زبان",
     "article": " وبلاگ",
     "contact": " ارتباط با من",
@@ -17,7 +17,7 @@
     "chioseLang": "Change Language",
     "article": "Blogs",
     "contact": "Contact",
-    "Programmer": "Web Developer",
+    "Programmer": "Frontend Developer",
     "about me": "About me",
     "downloadCv": "Download cv",
     "projects": "Projects",

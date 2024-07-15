@@ -135,7 +135,7 @@ export default function About(props: propstype) {
             {props.Lang === "Fa" ? data.Fa.downloadCv : data.En.downloadCv}
           </a>
         </Button>
-        <Button className="h-14 w-36 text-lg text-white rounded-[0.875rem] bg-green-500 shadow-lg shadow-green-500 hover:shadow-green-400 flex justify-center items-center">
+        <Button className="h-14 w-36 text-lg text-slate-800 rounded-[0.875rem] bg-white border-5 border-rose-600 shadow-lg shadow-rose-500 hover:shadow-rose-400 flex justify-center items-center">
           <a
             href="https://github.com/AliMohammad-Esmaeeli/"
             target="_blank"

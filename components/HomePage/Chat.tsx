@@ -8,7 +8,7 @@ export default function Chat() {
         <div>
             <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="h-14 w-14 rounded-full shadow-2xl bg-[#18dca4] flex justify-center items-center fixed right-5 bottom-5">
+                className="h-14 w-14 rounded-full shadow-2xl bg-[#18dca4] flex justify-center items-center fixed right-5 bottom-5 z-50">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"

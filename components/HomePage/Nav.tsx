@@ -1,15 +1,15 @@
-"use client";
+"use client"
 import Link from "next/link";
-import { useState } from "react";
 import SideNav from "./sideNav";
 import data from "@/Data/data.json";
+
+import { Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button } from "@nextui-org/react";
 
 interface propstype {
   Lang: string,
 }
 
 export default function Nav(props: propstype) {
-  const [isLangOpen, setIsLangOpen] = useState(false);
   return (
     <div>
       <header className="p-3">
@@ -54,47 +54,53 @@ export default function Nav(props: propstype) {
                 }}
               ></div>
             </div>
+            
             {/* choise lang */}
-            <button
-              onClick={() => setIsLangOpen(isLangOpen === false ? true : false)}
-              className="rounded-lg p-2 mx-2 bg-orange-400 text-black text-base truncate flex items-center relative"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-                focusable="false"
-                viewBox="0 0 24 24"
-                className="vt-locales-btn-icon w-5 h-5 mr-1"
-                data-v-9b573068=""
-              >
-                <path d="M0 0h24v24H0z" fill="none"></path>
-                <path
-                  d=" M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z "
-                  className="css-c4d79v"
-                ></path>
-              </svg>
-              {props.Lang === "Fa" ? data.Fa.chioseLang : data.En.chioseLang}
-            </button>
-            {isLangOpen && (
-              <ul className="h-24 w-40 bg-slate-50 rounded-3xl absolute top-16 md:top-14 z-10 grid place-items-center">
-                <li>
+            <Dropdown>
+              <DropdownTrigger>
+                <Button
+                  className="rounded-lg p-2 mx-2 bg-orange-400 text-black text-base truncate flex items-center relative">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                    className="vt-locales-btn-icon w-5 h-5 mr-1"
+                    data-v-9b573068=""
+                  >
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                    <path
+                      d=" M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z "
+                      className="css-c4d79v"
+                    ></path>
+                  </svg>
+                  {props.Lang === "Fa" ? data.Fa.chioseLang : data.En.chioseLang}
+                </Button>
+              </DropdownTrigger>
+              <DropdownMenu aria-label="Static Actions">
+                <DropdownItem key="fa">
                   <Link
-                    className="flex justify-center items-center text-black"
+                    className="flex justify-center items-center"
                     href={"/"}
                   >
-                    فارسی
+                    <p className="font-yekanBakh text-black dark:text-white text-lg">
+                      فارسی
+                    </p>
                   </Link>
-                </li>
-                <li>
+                </DropdownItem>
+                <DropdownItem key="en">
                   <Link
-                    className="flex justify-center items-center text-black"
+                    className="flex justify-center items-center"
                     href={"/en"}
                   >
-                    English
+                    <p className="font-yekanBakh text-black dark:text-white text-lg">
+                      English
+                    </p>
                   </Link>
-                </li>
-              </ul>
-            )}
+                </DropdownItem>
+              </DropdownMenu>
+            </Dropdown>
+
           </div>
           {/* links */}
           <div className="hidden md:block">

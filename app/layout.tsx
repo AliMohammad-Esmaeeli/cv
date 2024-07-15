@@ -1,13 +1,13 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Lalezar } from "next/font/google";
+import { NextUIProvider } from "@nextui-org/react";
 import Head from "next/head";
-
-const lalezar = Lalezar({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
   title: "Ali Mohammad",
   description: "Ali Mohammad Esmaeeli cv",
+  keywords: ["علی محمد", "اسماعیلی", "علی محمد اسماعیلی", "Ali Mohammad", "Ali Mohammad Esmaeeli"],
+  metadataBase: new URL('https://www.alimohammad.blog/'),
 };
 
 export default function RootLayout({
@@ -17,7 +17,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={lalezar.className}>{children}</body>
+      <body>
+        <NextUIProvider>
+          {children}
+        </NextUIProvider>
+      </body>
     </html>
   );
 }

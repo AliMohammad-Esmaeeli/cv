@@ -34,6 +34,7 @@ export default function About(props: propstype) {
                     height={200}
                     width={200}
                     fetchPriority="high"
+                    loading="eager"
                 />
             </div>
             <div className="pl-10 hidden lg:block">

@@ -33,6 +33,7 @@ export default function About(props: propstype) {
                     alt="img"
                     height={200}
                     width={200}
+                    fetchPriority="high"
                 />
             </div>
             <div className="pl-10 hidden lg:block">

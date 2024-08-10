@@ -29,7 +29,7 @@ export default function About(props: propstype) {
                 </svg>
                 <Image
                     className="absolute bottom-10 -top-8 left-28"
-                    src="/image1.png"
+                    src="/images/image1.png"
                     alt="img"
                     height={200}
                     width={200}

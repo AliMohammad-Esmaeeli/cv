@@ -105,12 +105,12 @@ export default function Nav(props: propstype) {
           {/* links */}
           <div className="hidden md:block">
             <div className="text-2xl flex items-center justify-center">
-              <a
+              <Link
                 className=" mx-1 px-1 order-1"
-                href="https://virgool.io/@AliMohammad"
+                href={"/blog"}
               >
                 {props.Lang === "Fa" ? data.Fa.article : data.En.article}
-              </a>
+              </Link>
               <Link href="#about-me" className=" mx-1 px-1 order-2">
                 {props.Lang === "Fa"
                   ? data.Fa["about me"]

@@ -32,11 +32,11 @@ export default function SideNav(props: propstype) {
                         <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
                     </svg>
                 </a>
-                <a
-                    href="https://virgool.io/@AliMohammad"
+                <Link
+                    href={"/blog"}
                     onClick={() => { document.getElementById("mySidenav")!.style.width = "0" }}>
                     {props.Lang === "Fa" ? data.Fa.article : data.En.article}
-                </a>
+                </Link>
                 <Link
                     href="#about-me"
                     onClick={() => { document.getElementById("mySidenav")!.style.width = "0" }}

@@ -15,24 +15,24 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
 
   return (
     <article className="max-w-3xl mx-auto px-4 py-12 min-h-dvh scroll-smooth overflow-x-hidden select-none appearance-none font-yekanBakh bg-white text-black dark:bg-stone-950 dark:text-white">
-      <header className="mb-8 flex flex-col justify-center items-center">
+      <header className="mb-8 flex flex-col justify-center items-center gap-5">
         <h1 className="text-4xl font-bold mb-2">{post.title}</h1>
         <time className="text-muted-foreground">
           {format(new Date(post.date), 'MMMM d, yyyy')}
         </time>
         <Image
-        className='rounded-lg w-auto h-36'
+          className='rounded-lg w-auto h-40'
           src={post.image}
           alt={post.title}
-          height={100}
-          width={100}
+          height={1000}
+          width={1000}
         />
       </header>
 
 
       <BreadCrumbs />
 
-      <div className="prose prose-lg dark:prose-invert max-w-none">
+      <div className="prose prose-lg dark:prose-invert max-w-none leading-loose rtl">
         <Markdown>{post.content}</Markdown>
       </div>
 

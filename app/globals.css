@@ -11,6 +11,10 @@
   .font-yekanBakh {
     font-family: yekanBakh;
   }
+
+  .rtl {
+    direction: rtl;
+  }
 }
 
 html {

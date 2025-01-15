@@ -25,21 +25,22 @@ export default function BlogIndex() {
       <div className="grid gap-6">
         {posts.map((post) => (
           <Link key={post.slug} href={`/blog/${post.slug}`}>
-            <div className="transition-colors border-2 border-[#f7efe3] rounded-2xl px-8 py-4 shadow-sm hover:shadow overflow-hidden flex justify-between items-center">
+            <div className="transition-colors border-2 border-[#f7efe3] rounded-2xl px-8 py-4 shadow-sm hover:shadow overflow-hidden flex justify-between items-center relative">
               <div>
                 <div>{post.title}</div>
                 <div>
                   <time className="text-muted-foreground">
                     {format(new Date(post.date), 'MMMM d, yyyy')}
                   </time>
-                  <p className="mt-2">{post.excerpt}</p>
+                  <p className="mt-2 truncate">{post.excerpt}</p>
                 </div>
               </div>
               <Image
+              className="h-full w-auto absolute right-0"
                 src={post.image}
                 alt={post.title}
-                height={100}
-                width={100}
+                height={1000}
+                width={1000}
               />
             </div>
           </Link>

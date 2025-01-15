@@ -36,7 +36,7 @@ export default function BlogIndex() {
                 </div>
               </div>
               <Image
-              className="h-full w-auto absolute right-0"
+                className="h-full w-auto absolute right-0"
                 src={post.image}
                 alt={post.title}
                 height={1000}

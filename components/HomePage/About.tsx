@@ -126,8 +126,8 @@ export default function About(props: propstype) {
           <br />
         </div>
       )}
-      <div className="my-10 flex justify-center items-center">
-        <Button className="h-14 w-36 bg-rose-600 text-white text-lg rounded-[0.875rem] shadow-lg shadow-rose-500 hover:shadow-rose-400 mr-10 md:mr-20 flex justify-center items-center">
+      <div className="my-10 flex-center">
+        <Button className="h-14 w-36 bg-rose-600 text-white text-lg rounded-[0.875rem] shadow-lg shadow-rose-500 hover:shadow-rose-400 mr-10 md:mr-20 flex-center">
           <a
             href="/AliMohammadEsmaeeli.pdf"
             download={"Ali Mohammad Esmaeeli cv"}
@@ -135,7 +135,7 @@ export default function About(props: propstype) {
             {props.Lang === "Fa" ? data.Fa.downloadCv : data.En.downloadCv}
           </a>
         </Button>
-        <Button className="h-14 w-36 text-lg text-slate-800 dark:text-white rounded-[0.875rem] bg-transparent border-5 border-rose-600 shadow-lg shadow-rose-500 hover:shadow-rose-400 flex justify-center items-center">
+        <Button className="h-14 w-36 text-lg text-slate-800 dark:text-white rounded-[0.875rem] bg-transparent border-5 border-rose-600 shadow-lg shadow-rose-500 hover:shadow-rose-400 flex-center">
           <a
             href="https://github.com/AliMohammad-Esmaeeli/"
             target="_blank"

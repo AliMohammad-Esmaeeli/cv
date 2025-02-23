@@ -14,7 +14,7 @@ export default function Nav(props: propstype) {
     <div>
       <header className="p-3">
         <nav className="flex justify-between items-center lg:justify-end">
-          <div className="flex justify-center items-center">
+          <div className="flex-center">
             {/* choise mode */}
             <div className="h-8 w-14 rounded-full bg-slate-200 mx-2 relative">
               <span className=" flex items-center justify-around mt-1">
@@ -80,7 +80,7 @@ export default function Nav(props: propstype) {
               <DropdownMenu aria-label="Static Actions">
                 <DropdownItem key="fa">
                   <Link
-                    className="flex justify-center items-center"
+                    className="flex-center"
                     href={"/"}
                   >
                     <p className="font-yekanBakh text-black dark:text-white text-lg">
@@ -90,7 +90,7 @@ export default function Nav(props: propstype) {
                 </DropdownItem>
                 <DropdownItem key="en">
                   <Link
-                    className="flex justify-center items-center"
+                    className="flex-center"
                     href={"/en"}
                   >
                     <p className="font-yekanBakh text-black dark:text-white text-lg">

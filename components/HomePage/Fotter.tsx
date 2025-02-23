@@ -44,7 +44,7 @@ export default function Fotter(props: propstype) {
           <ul className="mt-3 grid grid-rows-3 grid-cols-2  place-items-center">
             <li className="p-1 hover:text-orange-600">
               <a
-                className="flex justify-center items-center"
+                className="flex-center"
                 href="https://www.linkedin.com/in/ali-mohammad-esmaeeli-452182203/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -66,7 +66,7 @@ export default function Fotter(props: propstype) {
             </li>
             <li className="p-1 hover:text-orange-600">
               <a
-                className="flex justify-center items-center"
+                className="flex-center"
                 href="https://t.me/AliMohammad86"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -88,7 +88,7 @@ export default function Fotter(props: propstype) {
             </li>
             <li className="p-1 hover:text-orange-600">
               <a
-                className="flex justify-center items-center"
+                className="flex-center"
                 href="https://github.com/AliMohammad-Esmaeeli/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -110,7 +110,7 @@ export default function Fotter(props: propstype) {
             </li>
             <li className="p-1 hover:text-orange-600">
               <a
-                className="flex justify-center items-center"
+                className="flex-center"
                 href="tel:+989302285062"
               >
                 <span>
@@ -136,7 +136,7 @@ export default function Fotter(props: propstype) {
             <li className="p-1 hover:text-orange-600">
               <a
                 href="mailto:alimohammadesmaeeli4456@gmail.com"
-                className="flex justify-center items-center"
+                className="flex-center"
               >
                 <span className="mr-1">
                   <svg
@@ -159,7 +159,7 @@ export default function Fotter(props: propstype) {
             </li>
             <li className="p-1 hover:text-orange-600">
               <a
-                className="flex justify-center items-center"
+                className="flex-center"
                 href="https://x.com/AliMoha03254987?t=9GqSqmKivggIzcHLTiTiyQ&s=09"
                 target="_blank"
                 rel="noopener noreferrer"

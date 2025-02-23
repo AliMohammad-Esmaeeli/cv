@@ -10,9 +10,9 @@ export default function BlogIndex() {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-12 min-h-dvh scroll-smooth overflow-x-hidden select-none appearance-none font-yekanBakh bg-white text-black dark:bg-stone-950 dark:text-white">
-      <header className='flex justify-center items-center flex-col'>
+      <header className='flex-center flex-col'>
         <h1 className="text-4xl font-bold mb-8">وبلاگ</h1>
-        <span className='flex justify-center items-center gap-1'>
+        <span className='flex-center gap-1'>
           <p className="text-lg font-sans">This is my persion weblog</p>
           <p className="font-iosEmoji">🖐😁</p>
         </span>

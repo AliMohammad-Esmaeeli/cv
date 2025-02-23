@@ -21,6 +21,10 @@
     font-family: iosEmojis;
   }
 
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+
   .rtl {
     direction: rtl;
   }

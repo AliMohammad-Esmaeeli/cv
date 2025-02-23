@@ -110,7 +110,7 @@ export default function Skills(props: propstype) {
         {skills.map((i, e) => {
           return <SwiperSlide key={e}>
             <Tilt options={defaultOptions}>
-              <div className={`${i.color} w-36 h-36 md:w-44 md:h-44 rounded-3xl p-10 m-5 flex justify-center items-center`}>
+              <div className={`${i.color} w-36 h-36 md:w-44 md:h-44 rounded-3xl p-10 m-5 flex-center`}>
                 <Image
                   src={i.image}
                   alt={i.skill}

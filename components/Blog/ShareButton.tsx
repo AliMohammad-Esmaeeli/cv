@@ -10,7 +10,7 @@ export default function ShareButton(props: PropsType) {
     const pathname = usePathname();
     return (
         <Button
-            className="w-full h-14 mt-6 bg-[#009f4d] py-2 px-4 rounded-md hover:bg-[#00793a] transition-colors flex justify-center items-center gap-2 flex-row-reverse"
+            className="w-full h-14 mt-6 bg-[#009f4d] py-2 px-4 rounded-md hover:bg-[#00793a] transition-colors flex-center gap-2 flex-row-reverse"
             onClick={() => {
                 navigator.share({
                     url: `${location.origin + pathname}`,

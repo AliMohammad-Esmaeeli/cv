@@ -7,9 +7,18 @@
   src: url(../public/fonts/YekanBakh.ttf);
 }
 
+@font-face {
+  font-family: iosEmojis;
+  src: url(../public/fonts/iosEmoji.ttf);
+}
+
 @layer utilities {
   .font-yekanBakh {
     font-family: yekanBakh;
+  }
+
+  .font-iosEmoji {
+    font-family: iosEmojis;
   }
 
   .rtl {

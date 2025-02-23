@@ -15,17 +15,17 @@ export default function BreadCrumbs() {
     });
 
     return (
-        <div className="bg-[#f7efe3] rounded-2xl h-14 w-full px-8 py-4 my-4 flex justify-start items-center shadow-sm hover:shadow">
+        <div className="bg-[#009f4d] rounded-2xl h-14 w-full px-8 py-4 my-4 flex justify-start items-center shadow-sm hover:shadow">
             <Breadcrumbs>
                 <BreadcrumbItem>
                     <Link href={"/"}>
-                        <p className="text-lg">Home</p>
+                        <p className="text-lg text-white">Home</p>
                     </Link>
                 </BreadcrumbItem>
                 {breadcrumbs.map((breadcrumb, index) => (
-                    <BreadcrumbItem key={index}>
+                    <BreadcrumbItem key={index} className="text-white">
                         <Link href={breadcrumb.link}>
-                            <p className="text-lg">{breadcrumb.name}</p>
+                            <p className="text-lg text-white">{breadcrumb.name}</p>
                         </Link>
                     </BreadcrumbItem>
                 ))}

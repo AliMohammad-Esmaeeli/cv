@@ -15,7 +15,7 @@ export default function BreadCrumbs() {
     });
 
     return (
-        <div className="bg-[#009f4d] hover:bg-[#00793a]  rounded-2xl h-14 w-full px-8 py-4 my-4 flex justify-start items-center shadow-sm hover:shadow">
+        <div className="bg-[#009f4d] hover:bg-[#00793a] rounded-2xl h-14 w-full px-8 py-4 my-4 flex justify-start items-center shadow-sm hover:shadow">
             <Breadcrumbs>
                 <BreadcrumbItem>
                     <Link href={"/"}>

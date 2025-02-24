@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import socialLinks from '@/Data/socialLinks.json';
 import { Fragment } from 'react';
+import Image from 'next/image';
 
 export default function Page() {
     return (
@@ -12,15 +13,19 @@ export default function Page() {
                     <Fragment key={link.name}>
                         <a href={link.url} target="_blank" rel="noopener noreferrer" className="group relative flex flex-col items-center">
                             <i className={link.icon} aria-hidden="true">
-                                <img
+                                <Image
                                     alt={link.name}
                                     className="block group-hover:hidden size-10"
                                     src={`/images/svgs/${link.name}.svg`}
+                                    height={100}
+                                    width={100}
                                 />
-                                <img
+                                <Image
                                     alt={link.name}
                                     className="hidden group-hover:block size-10"
                                     src={`/images/svgs/${link.name}-colorfull.svg`}
+                                    height={100}
+                                    width={100}
                                 />
                                 <span className="hidden group-hover:block text-sm text-white bg-black px-3 py-2 rounded-md absolute -translate-x-2 -translate-y-24  after:rotate-45 after:absolute after:!bg-black after:size-4 after:rounded-sm after:top-6 after:right-6 after:-z-50">{link.persionName}</span>
                             </i>

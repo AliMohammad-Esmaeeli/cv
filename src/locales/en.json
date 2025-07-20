@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "skills": "Skills",
+    "education": "Education",
+    "contact": "Contact",
+    "blog": "Blog",
+    "name": "Ali Mohammad \n Esmaeeli"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Ali Mohammad Esmaeeli",
+    "title": "Frontend Developer",
+    "description": "Passionate about creating innovative web solutions with modern technologies. I specialize in React, Next.js, and Node.js development.",
+    "downloadCV": "Download CV",
+    "contactMe": "Contact Me"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I'm a dedicated full-stack developer with 5+ years of experience building scalable web applications. I love turning complex problems into simple, beautiful designs. When I'm not coding, you'll find me exploring new technologies or contributing to open-source projects."
+  },
+  "experience": {
+    "title": "Experience",
+    "jobs": [
+      {
+        "title": "Front-end developer",
+        "company": "Digitalogic.ir",
+        "period": "November 2023 - April 2024",
+        "description": "My first experience in real developer team."
+      },
+      {
+        "title": "Front-end developer",
+        "company": "Parch Linux",
+        "period": "September 2022 – November 2023",
+        "description": "Collaborating with open source community "
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "categories": {
+      "frontend": "Frontend",
+      "tools": "Tools & Others"
+    }
+  },
+  "education": {
+    "title": "Education",
+    "degree": "Bachelor of Science in Computer Science",
+    "university": "University of Technology",
+    "period": "2015 - 2019",
+    "description": "Graduated with honors. Focused on software engineering, algorithms, and web development."
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "I'm always open to discussing new opportunities and interesting projects.",
+    "email": "alimohammadesmaeeli4456@gmail.com",
+    "phone": "+98 9302285062",
+    "location": "San Francisco, CA"
+  },
+  "NotFound": {
+    "NotFound": "Page Not Found"
+  }
+}

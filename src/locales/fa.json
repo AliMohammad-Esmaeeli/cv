@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "about": "درباره من",
+    "experience": "تجربیات",
+    "skills": "مهارت‌ها",
+    "education": "تحصیلات",
+    "contact": "تماس",
+    "blog": "بلاگ",
+    "name": "علی محمد اسماعیلی"
+  },
+  "hero": {
+    "greeting": "سلام، من هستم",
+    "name": "علی محمد اسماعیلی",
+    "title": "توسعه دهنده فرانت‌اند",
+    "description": "علاقه‌مند به ایجاد راه‌حل‌های نوآورانه وب با فناوری‌های مدرن. من در توسعه React، Next.js و Node.js تخصص دارم.",
+    "downloadCV": "دانلود رزومه",
+    "contactMe": "تماس با من"
+  },
+  "about": {
+    "title": "درباره من",
+    "description": "من یک توسعه‌دهنده فول‌استک با بیش از ۵ سال تجربه در ساخت برنامه‌های وب مقیاس‌پذیر هستم. من عاشق تبدیل مشکلات پیچیده به طراحی‌های ساده و زیبا هستم. وقتی کدنویسی نمی‌کنم، من را در حال کشف فناوری‌های جدید یا مشارکت در پروژه‌های اوپن‌سورس خواهید یافت."
+  },
+  "experience": {
+    "title": "تجربیات",
+    "jobs": [
+      {
+        "title": "Front-end developer",
+        "company": "Digitalogic.ir",
+        "period": "November 2023 - April 2024",
+        "description": "My first experience in real developer team."
+      },
+      {
+        "title": "Front-end developer",
+        "company": "Parch Linux",
+        "period": "September 2022 – November 2023",
+        "description": "Collaborating with open source community "
+      }
+    ]
+  },
+  "skills": {
+    "title": "مهارت‌ها",
+    "categories": {
+      "frontend": "فرانت‌اند",
+      "tools": "ابزارها و سایر"
+    }
+  },
+  "education": {
+    "title": "تحصیلات",
+    "degree": "لیسانس علوم کامپیوتر",
+    "university": "دانشگاه فناوری",
+    "period": "۲۰۱۵ - ۲۰۱۹",
+    "description": "فارغ‌التحصیل با افتخارات. تمرکز بر مهندسی نرم‌افزار، الگوریتم‌ها و توسعه وب."
+  },
+  "contact": {
+    "title": "در تماس باشید",
+    "description": "من همیشه برای بحث در مورد فرصت‌های جدید و پروژه‌های جالب در دسترس هستم.",
+    "email": "alimohammadesmaeeli4456@gmail.com",
+    "phone": "+۹۸ ۹۳۰۲۲۸۵۰۶۲",
+    "location": "سان فرانسیسکو، کالیفرنیا"
+  },
+  "NotFound": {
+    "NotFound": "صفحه پیدا نشد"
+  }
+}

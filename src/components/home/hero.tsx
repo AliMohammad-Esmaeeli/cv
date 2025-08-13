@@ -1,5 +1,5 @@
 "use client";
-import { Button } from "@/src/components/home/ui//button";
+import { Button } from "@heroui/react";
 import { Download, Mail } from "lucide-react";
 import { useLanguage } from "../../locales/locales";
 import Link from "next/link";
@@ -8,7 +8,9 @@ export default function Hero() {
   const { translations } = useLanguage();
 
   return (
-    <section className="py-20 px-4">
+    <section className="py-20 px-4 relative">
+      <div className="size-16 bg-purple-400 blur-xl ring-purple-400/50 shadow-2xl shadow-purple-400/5 rounded-full absolute left-1/5 top-1/3"></div>
+      <div className="size-16 bg-red-400 blur-xl ring-purple-400/50 shadow-2xl shadow-purple-400/5 rounded-full absolute right-1/5 bottom-1/3"></div>
       <div className="container mx-auto text-center">
         <div className="max-w-4xl mx-auto">
           <p className="text-lg text-gray-600 mb-4">
@@ -23,14 +25,13 @@ export default function Hero() {
           <p className="text-lg text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed">
             {translations.hero.description}
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col rtl:flex-col-reverse sm:flex-row sm:rtl:flex-row-reverse gap-4 justify-center">
             <Button size="lg" className="gap-2">
               <Download className="w-5 h-5" />
               {translations.hero.downloadCV}
             </Button>
             <Link href="/contact">
               <Button
-                variant="outline"
                 size="lg"
                 className="gap-2 bg-white text-gray-900"
               >

@@ -1,27 +1,24 @@
-import Header from "@/src/components/home/header";
-import Hero from "@/src/components/home/hero";
-import About from "@/src/components/home/about";
-import Experience from "@/src/components/home/experience";
-import Skills from "@/src/components/home/skills";
-import Education from "@/src/components/home/education";
-import Contact from "@/src/components/home/contact";
+"use client";
+import Header from "@/components/home/header";
+import Hero from "@/components/home/hero";
+import About from "@/components/home/about";
+import Experience from "@/components/home/experience";
+import Skills from "@/components/home/skills";
+import Education from "@/components/home/education";
+import Contact from "@/components/home/contact";
 import { Suspense } from "react";
-import Loading from "@/src/components/Loading/loading";
+import Loading from "@/components/Loading/loading";
+
+import { useLanguage } from "@/locales/locales";
+
 
 export default function Home() {
+
+  const { language } = useLanguage();
+
   return (
-    <div className="min-h-dvh scroll-smooth overflow-x-hidden select-none appearance-none bg-white text-black dark:bg-stone-950 dark:text-white font-yekanBakh relative">
-      {/* Enhanced Checkered background pattern */}
-      <div className="fixed inset-0 opacity-15 pointer-events-none z-0">
-        <div className="w-full h-full bg-checkered"></div>
-      </div>
-
-      {/* Alternative subtle overlay for sections */}
-      <div className="fixed inset-0 opacity-5 pointer-events-none z-0">
-        <div className="w-full h-full bg-checkered-alt"></div>
-      </div>
-
-      <div className="relative z-10">
+    <div className={`min-h-dvh scroll-smooth overflow-x-hidden select-none appearance-none !bg-white !text-black dark:bg-stone-950 dark:text-white relative ${language === "fa" ? "font-yekanBakh" : "font-inter"}`}>
+      <div className="relative">
         <Header />
         <main>
           <Hero />

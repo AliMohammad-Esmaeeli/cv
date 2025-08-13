@@ -8,7 +8,7 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b">
-      <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+      <div className="container mx-auto px-4 py-4 flex items-center justify-between flex-row rtl:flex-row-reverse">
         <Link href="/" className="text-2xl font-bold text-gray-900">
           {translations.nav.name}
         </Link>

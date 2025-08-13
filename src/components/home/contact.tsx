@@ -4,7 +4,7 @@ import {
   CardContent,
   CardHeader,
   CardTitle,
-} from "@/src/components/home/ui/card";
+} from "@/components/home/ui/card";
 import { Mail, Phone, MapPin } from "lucide-react";
 import { useLanguage } from "../../locales/locales";
 
@@ -31,7 +31,9 @@ export default function Contact() {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 text-wrap">{translations.contact.email}</p>
+                <a href={`mailto:${translations.contact.email}`}>
+                  <p className="text-gray-600 text-wrap">{translations.contact.email}</p>
+                </a>
               </CardContent>
             </Card>
 
@@ -43,7 +45,9 @@ export default function Contact() {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600">{translations.contact.phone}</p>
+                <a href={`tel:${translations.contact.phone}`}>
+                  <p className="text-gray-600">{translations.contact.phone}</p>
+                </a>
               </CardContent>
             </Card>
 

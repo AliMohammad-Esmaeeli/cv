@@ -4,7 +4,7 @@ import {
   CardContent,
   CardHeader,
   CardTitle,
-} from "@/src/components/home/ui//card";
+} from "@/components/home/ui/card";
 import { GraduationCap } from "lucide-react";
 import { useLanguage } from "../../locales/locales";
 

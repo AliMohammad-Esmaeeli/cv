@@ -1,5 +1,5 @@
 "use client"
-import { useLanguage } from "@/src/locales/locales";
+import { useLanguage } from "@/locales/locales";
 
 export default function About() {
     const { translations } = useLanguage();

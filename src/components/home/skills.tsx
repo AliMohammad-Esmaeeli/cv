@@ -4,8 +4,8 @@ import {
   CardContent,
   CardHeader,
   CardTitle,
-} from "@/src/components/home/ui//card";
-import { Badge } from "@/src/components/home/ui//badge";
+} from "@/components/home/ui/card";
+import { Badge } from "@/components/home/ui/badge";
 import { useLanguage } from "../../locales/locales";
 
 const skillsData = {
@@ -17,6 +17,11 @@ const skillsData = {
     "Vue.js",
     "HTML5",
     "CSS3",
+  ],
+  ai: [
+    "Python Data Stack",
+    "TensorFlow Fundamentals",
+    "Data Processing"
   ],
   tools: ["Git", "Docker", "AWS", "Vercel", "Figma", "VS Code", "Linux"],
 };

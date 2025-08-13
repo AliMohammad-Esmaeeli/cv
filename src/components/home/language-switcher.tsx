@@ -1,13 +1,7 @@
 
 "use client";
 
-import { Button } from "@/src/components/home/ui/button";
-// import {
-//   DropdownMenu,
-//   DropdownMenuContent,
-//   DropdownMenuItem,
-//   DropdownMenuTrigger,
-// } from "@/src/components/home/ui/dropdown-menu";
+import { Button } from "@heroui/react";
 import {
   Avatar,
   Dropdown,

@@ -1,64 +1,118 @@
 {
   "nav": {
-    "about": "About",
-    "experience": "Experience",
-    "skills": "Skills",
-    "education": "Education",
-    "contact": "Contact",
-    "blog": "Blog",
-    "name": "Ali Mohammad \n Esmaeeli"
+    "about": "Profile",
+    "experience": "Professional Journey",
+    "skills": "Core Competencies",
+    "education": "Academic Background",
+    "contact": "Connect",
+    "blog": "Insights",
+    "name": "Ali Mohammad\nEsmaeeli"
   },
   "hero": {
     "greeting": "Hello, I'm",
     "name": "Ali Mohammad Esmaeeli",
-    "title": "Frontend Developer",
-    "description": "Passionate about creating innovative web solutions with modern technologies. I specialize in React, Next.js, and Node.js development.",
-    "downloadCV": "Download CV",
-    "contactMe": "Contact Me"
+    "title": "Frontend Architect",
+    "description": "Crafting premium digital experiences with React and Next.js. Continuously evolving through cutting-edge projects and collaborative innovation.",
+    "downloadCV": "Download Portfolio",
+    "contactMe": "Let's Collaborate"
   },
   "about": {
-    "title": "About Me",
-    "description": "I'm a dedicated full-stack developer with 5+ years of experience building scalable web applications. I love turning complex problems into simple, beautiful designs. When I'm not coding, you'll find me exploring new technologies or contributing to open-source projects."
+    "title": "Professional Synopsis",
+    "description": "Frontend specialist with demonstrated expertise in JavaScript ecosystems. A solutions-oriented developer who transforms complex challenges into intuitive interfaces. Team player with a growth mindset, passionate about knowledge exchange and technical excellence."
   },
   "experience": {
-    "title": "Experience",
+    "title": "Professional Milestones",
     "jobs": [
       {
-        "title": "Front-end developer",
+        "title": "Frontend Engineer",
         "company": "Digitalogic.ir",
-        "period": "November 2023 - April 2024",
-        "description": "My first experience in real developer team."
+        "period": "Nov 2023 - Apr 2024",
+        "description": "Pioneered UI development using Next.js and Chakra UI, translating Figma designs into production-grade code. Enhanced technical proficiency through mentorship from senior developers."
       },
       {
-        "title": "Front-end developer",
+        "title": "Open Source Contributor",
         "company": "Parch Linux",
-        "period": "September 2022 – November 2023",
-        "description": "Collaborating with open source community "
+        "period": "Sep 2022 - Nov 2023",
+        "description": "Spearheaded website development with Next.js and Tailwind CSS, implementing multilingual capabilities as sole developer."
       }
     ]
   },
   "skills": {
-    "title": "Skills",
+    "title": "Technical Arsenal",
     "categories": {
-      "frontend": "Frontend",
-      "tools": "Tools & Others"
+      "frontend": "Frontend Mastery",
+      "ai": "AI Exploration",
+      "tools": "Development Toolkit"
+    },
+    "items": {
+      "frontend": [
+        "Semantic HTML5 & CSS3",
+        "JavaScript (ES6+)",
+        "TypeScript",
+        "React Ecosystem",
+        "Next.js Framework",
+        "Tailwind CSS",
+        "Bootstrap",
+        "Sass/SCSS"
+      ],
+      "ai": [
+        "Python Data Stack",
+        "TensorFlow Fundamentals",
+        "Data Processing"
+      ],
+      "tools": [
+        "Version Control (Git)",
+        "Collaborative Development (GitHub)",
+        "Containerization (Docker)",
+        "State Management (Redux)",
+        "Data Fetching (React-Query)",
+        "Authentication (Next Auth)"
+      ]
     }
   },
+  "projects": {
+    "title": "Innovation Lab",
+    "items": [
+      {
+        "name": "Deep Learning Image Recognition",
+        "description": "Educational initiative exploring computer vision fundamentals"
+      },
+      {
+        "name": "Tech Startup Blueprint",
+        "description": "Conceptual framework for disruptive digital platform"
+      }
+    ]
+  },
   "education": {
-    "title": "Education",
-    "degree": "Bachelor of Science in Computer Science",
-    "university": "University of Technology",
-    "period": "2015 - 2019",
-    "description": "Graduated with honors. Focused on software engineering, algorithms, and web development."
+    "title": "Academic Credentials",
+    "degree": "Bachelor of Science",
+    "university": "(To be specified)",
+    "period": "(To be specified)",
+    "description": ""
   },
   "contact": {
-    "title": "Get In Touch",
-    "description": "I'm always open to discussing new opportunities and interesting projects.",
+    "title": "Collaboration Hub",
+    "description": "Available for groundbreaking projects and synergistic partnerships.",
     "email": "alimohammadesmaeeli4456@gmail.com",
-    "phone": "+98 9302285062",
-    "location": "San Francisco, CA"
+    "phone": "+98 930 228 5062",
+    "location": "Isfahan, Iran"
   },
-  "NotFound": {
-    "NotFound": "Page Not Found"
+  "languages": {
+    "title": "Linguistic Proficiency",
+    "items": [
+      "English (Professional Working Proficiency)",
+      "French (Intermediate)",
+      "Persian (Native)"
+    ]
+  },
+  "hobbies": {
+    "title": "Intellectual Pursuits",
+    "items": [
+      "Technical Literature",
+      "Thought Leadership Podcasts",
+      "Nature Immersion",
+      "Cinematic Storytelling",
+      "Emerging Tech Trends"
+    ]
   }
 }

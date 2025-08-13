@@ -9,17 +9,17 @@ interface langType {
   language: string;
   setLanguage: (language: string) => void;
   reset: () => void;
-  translations: typeof Farsi;
+  translations: typeof English;
 }
 
 export const useLanguage = create<langType>((set: any) => ({
-  language: "fa",
-  translations: Farsi,
+  language: "en",
+  translations: English,
   setLanguage: (language: string) => {
     const translations = getTranslations(language);
     set({ language, translations });
   },
-  reset: () => set({ language: "fa", translations: Farsi }),
+  reset: () => set({ language: "en", translations: English }),
 }));
 
 function getTranslations(language: string) {

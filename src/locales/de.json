@@ -1,64 +1,102 @@
 {
   "nav": {
-    "about": "Über mich",
-    "experience": "Erfahrung",
+    "about": "Profil",
+    "experience": "Berufserfahrung",
     "skills": "Fähigkeiten",
-    "education": "Bildung",
+    "education": "Ausbildung",
     "contact": "Kontakt",
     "blog": "Blog",
-    "name": "Ali Mohammad \n Esmaeeli"
+    "name": "Ali Mohammad\nEsmaeeli"
   },
   "hero": {
     "greeting": "Hallo, ich bin",
     "name": "Ali Mohammad Esmaeeli",
-    "title": "Frontend-Entwickler",
-    "description": "Leidenschaftlich über die Erstellung innovativer Web-Lösungen mit modernen Technologien. Ich spezialisiere mich auf React, Next.js und Node.js Entwicklung.",
+    "title": "Frontend-Entwickler | KI-Enthusiast",
+    "description": "Spezialist für hochwertige Benutzeroberflächen mit React und Next.js. Ständig auf der Suche nach innovativen Projekten und inspirierenden Kooperationen.",
     "downloadCV": "Lebenslauf herunterladen",
-    "contactMe": "Kontaktieren Sie mich"
+    "contactMe": "Kontakt aufnehmen"
   },
   "about": {
     "title": "Über mich",
-    "description": "Ich bin ein engagierter Full-Stack-Entwickler mit mehr als 5 Jahren Erfahrung im Aufbau skalierbarer Webanwendungen. Ich liebe es, komplexe Probleme in einfache, schöne Designs zu verwandeln. Wenn ich nicht programmiere, finden Sie mich beim Erkunden neuer Technologien oder bei der Mitarbeit an Open-Source-Projekten."
+    "description": "Erfahrener Frontend-Entwickler mit Expertise in JavaScript und React. Besondere Leidenschaft für komplexe Problemstellungen und intuitive Interface-Gestaltung. Autodidakt im Bereich künstliche Intelligenz mit dem Ziel, transformative Technologielösungen zu entwickeln."
   },
   "experience": {
-    "title": "Berufserfahrung",
+    "title": "Beruflicher Werdegang",
     "jobs": [
       {
-        "title": "Front-end developer",
+        "title": "Frontend-Entwickler",
         "company": "Digitalogic.ir",
-        "period": "November 2023 - April 2024",
-        "description": "My first experience in real developer team."
+        "period": "Nov. 2023 - Apr. 2024",
+        "description": "Entwicklung von Benutzeroberflächen mit Next.js und Chakra UI. Präzise Umsetzung von Figma-Designs in optimierten Code unter Anleitung von Senior-Entwicklern."
       },
       {
-        "title": "Front-end developer",
+        "title": "Open-Source-Mitwirkender",
         "company": "Parch Linux",
-        "period": "September 2022 – November 2023",
-        "description": "Collaborating with open source community "
+        "period": "Sep. 2022 - Nov. 2023",
+        "description": "Eigenständige Full-Stack-Entwicklung einer mehrsprachigen Website mit Next.js und Tailwind CSS, die von über 2000 Nutzern verwendet wird."
       }
     ]
   },
   "skills": {
-    "title": "Fähigkeiten",
+    "title": "Technische Kompetenzen",
     "categories": {
       "frontend": "Frontend",
-      "tools": "Werkzeuge & Andere"
+      "ai": "Künstliche Intelligenz",
+      "tools": "Werkzeuge"
+    },
+    "items": {
+      "frontend": ["HTML5 & CSS3", "JavaScript (ES6+)", "TypeScript", "React", "Next.js", "Tailwind CSS", "Bootstrap", "Sass"],
+      "ai": ["Python (NumPy, Pandas)", "TensorFlow (Grundlagen)", "Datenverarbeitung"],
+      "tools": ["Git & GitHub", "Docker", "Redux", "React-Query", "Next Auth"]
     }
   },
+  "projects": {
+    "title": "Persönliche Projekte",
+    "items": [
+      {
+        "name": "Medizinische Bildklassifizierung",
+        "description": "CNN-Modell zur Erkennung radiologischer Anomalien (Genauigkeit: 85%)."
+      },
+      {
+        "name": "Aufstrebende SaaS-Plattform (Konzept)",
+        "description": "Entwurf einer KI-integrierten B2B-Lösung."
+      }
+    ]
+  },
   "education": {
-    "title": "Bildung",
-    "degree": "Bachelor of Science in Informatik",
-    "university": "Technische Universität",
-    "period": "2015 - 2019",
-    "description": "Abschluss mit Auszeichnung. Schwerpunkt auf Softwaretechnik, Algorithmen und Webentwicklung."
+    "title": "Akademischer Hintergrund",
+    "degree": "Bachelor in Informatik",
+    "university": "Universität Isfahan",
+    "period": "2021 - Heute",
+    "highlights": [
+      "Lehrveranstaltungen: Maschinelles Lernen (Note: 1,3)",
+      "Fortgeschrittene Algorithmen",
+      "Softwarearchitektur"
+    ]
   },
   "contact": {
-    "title": "Kontakt",
-    "description": "Ich bin immer offen für neue Möglichkeiten und interessante Projekte.",
+    "title": "Kontaktdaten",
+    "description": "Offen für innovative Möglichkeiten, technische Zusammenarbeit oder anregenden Austausch.",
     "email": "alimohammadesmaeeli4456@gmail.com",
-    "phone": "+98 9302285062",
-    "location": "San Francisco, CA"
+    "phone": "+98 930 228 5062",
+    "portfolio": "ali-mohammad.ir"
   },
-  "NotFound": {
-    "NotFound": "Seite nicht gefunden"
+  "languages": {
+    "title": "Sprachkenntnisse",
+    "items": [
+      "Englisch (Verhandlungssicher)",
+      "Französisch (Mittelstufe B2)",
+      "Persisch (Muttersprache)"
+    ]
+  },
+  "hobbies": {
+    "title": "Interessen",
+    "items": [
+      "Fachliteratur (Technik & Philosophie)",
+      "Technologie-Podcasts",
+      "Wandern in der Natur",
+      "Autorenfilme",
+      "Technologietrends"
+    ]
   }
 }

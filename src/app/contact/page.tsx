@@ -1,4 +1,4 @@
-import socialLinks from "@/src/data/socialLinks.json";
+import socialLinks from "@/data/socialLinks.json";
 import Image from "next/image";
 
 export default function Page() {
@@ -34,6 +34,7 @@ export default function Page() {
           </i>
         ))}
         <div className="size-16 bg-purple-400 blur-xl ring-purple-400/50 shadow-2xl shadow-purple-400/5 rounded-full absolute"></div>
+        <div className="size-16 bg-red-400 blur-xl ring-purple-400/50 shadow-2xl shadow-purple-400/5 rounded-full absolute right-1/5 bottom-1/3"></div>
       </ul>
     </div>
   );

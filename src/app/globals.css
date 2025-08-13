@@ -1,33 +1,9 @@
 @import "tailwindcss";
-@tailwind base;
-@tailwind components;
 @tailwind utilities;
 
-
-@layer theme {
-  :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-    --secondary: 210 40% 96%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-    --muted: 210 40% 96%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 210 40% 96%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
-    --radius: 0.5rem;
-  }
-}
+@plugin './hero.ts';
+@source '../../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}';
+@custom-variant dark (&:is(.dark *));
 
 @font-face {
   font-family: yekanBakh;
@@ -39,6 +15,11 @@
   src: url(../assets/fonts/iosEmoji.ttf);
 }
 
+@font-face {
+  font-family: Inter;
+  src: url(../assets/fonts/Inter.ttf);
+}
+
 @layer utilities {
   .font-yekanBakh {
     font-family: yekanBakh;
@@ -46,6 +27,12 @@
 
   .font-iosEmoji {
     font-family: iosEmojis;
+  }
+
+  .font-inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
   }
 
   .flex-center {
@@ -66,24 +53,6 @@
 
   .rtl {
     direction: rtl;
-  }
-
-  .bg-checkered {
-    background-image: linear-gradient(45deg, #f8f9fa 25%, transparent 25%),
-      linear-gradient(-45deg, #f8f9fa 25%, transparent 25%),
-      linear-gradient(45deg, transparent 75%, #f8f9fa 75%),
-      linear-gradient(-45deg, transparent 75%, #f8f9fa 75%);
-    background-size: 30px 30px;
-    background-position: 0 0, 0 15px, 15px -15px, -15px 0px;
-  }
-
-  .bg-checkered-alt {
-    background-image: linear-gradient(45deg, #e9ecef 25%, #f8f9fa 25%),
-      linear-gradient(-45deg, #e9ecef 25%, #f8f9fa 25%),
-      linear-gradient(45deg, #f8f9fa 75%, #e9ecef 75%),
-      linear-gradient(-45deg, #f8f9fa 75%, #e9ecef 75%);
-    background-size: 40px 40px;
-    background-position: 0 0, 0 20px, 20px -20px, -20px 0px;
   }
 }
 

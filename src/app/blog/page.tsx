@@ -1,6 +1,6 @@
 import Header from '@/components/home/header';
 import BlogTitle from '@/components/blog/blogTitle';
-import BreadCrumbs from '@/components/blog/breadCrumbs';
+import BreadCrumbs from '@/components/blog/BreadCrumbs';
 import BlogList from '@/components/blog/blogList';
 import Footer from "@/components/home/footer";
 

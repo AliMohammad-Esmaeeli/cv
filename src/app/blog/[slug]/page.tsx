@@ -4,8 +4,8 @@ import { format } from 'date-fns';
 import Header from '@/components/home/header';
 import Footer from '@/components/home/footer';
 import Image from 'next/image';
-import BreadCrumbs from '@/components/blog/BreadCrumbs';
-import ShareButton from '@/components/blog/ShareButton';
+import BreadCrumbs from '@/components/blog/breadCrumbs';
+import ShareButton from '@/components/blog/shareButton';
 
 export async function generateStaticParams() {
   const paths = getAllPostSlugs();

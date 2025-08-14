@@ -1,5 +1,5 @@
 "use client";
-import { Button } from "@nextui-org/react";
+import { Button } from "@heroui/react";
 import { usePathname } from "next/navigation";
 import { useLanguage } from "../../locales/locales";
 
@@ -12,8 +12,8 @@ export default function ShareButton(props: PropsType) {
   const pathname = usePathname();
   return (
     <Button
-      className="w-full h-14 mt-6 bg-[#009f4d] py-2 px-4 rounded-md hover:bg-[#00793a] transition-colors flex-center gap-2 flex-row-reverse"
-      onClick={() => {
+      className="w-full h-14 mt-6 bg-[#009f4d] py-2 px-4 rounded-md hover:bg-[#00793a] transition-colors flex-center gap-2 flex-row rtl:flex-row-reverse"
+      onPress={() => {
         navigator.share({
           url: `${location.origin + pathname}`,
           title: props.title,

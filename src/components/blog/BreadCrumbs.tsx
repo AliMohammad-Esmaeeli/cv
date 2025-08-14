@@ -1,5 +1,5 @@
 "use client"
-import { Breadcrumbs, BreadcrumbItem } from "@nextui-org/react";
+import { Breadcrumbs, BreadcrumbItem } from "@heroui/react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -15,17 +15,17 @@ export default function BreadCrumbs() {
     });
 
     return (
-        <div className="bg-[#009f4d] hover:bg-[#00793a] rounded-2xl h-14 w-full px-8 py-4 my-4 flex-start shadow-sm hover:shadow">
+        <div className="bg-[#f9fafb] rounded-2xl h-14 w-full px-8 py-4 my-7 shadow-lg hover:shadow transition ease-in-out duration-150 text-black">
             <Breadcrumbs>
                 <BreadcrumbItem>
                     <Link href={"/"}>
-                        <p className="text-lg text-white">Home</p>
+                        <p className="text-lg">Home</p>
                     </Link>
                 </BreadcrumbItem>
                 {breadcrumbs.map((breadcrumb, index) => (
-                    <BreadcrumbItem key={index} className="text-white">
+                    <BreadcrumbItem key={index}>
                         <Link href={breadcrumb.link}>
-                            <p className="text-lg text-white">{breadcrumb.name}</p>
+                            <p className="text-lg">{breadcrumb.name}</p>
                         </Link>
                     </BreadcrumbItem>
                 ))}

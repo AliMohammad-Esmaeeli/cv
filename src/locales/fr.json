@@ -45,9 +45,28 @@
       "tools": "Outils"
     },
     "items": {
-      "frontend": ["HTML5 & CSS3", "JavaScript (ES6+)", "TypeScript", "React", "Next.js", "Tailwind CSS", "Bootstrap", "Sass"],
-      "ai": ["Python (NumPy, Pandas)", "TensorFlow (Bases)", "Traitement de données"],
-      "tools": ["Git & GitHub", "Docker", "Redux", "React-Query", "Next Auth"]
+      "frontend": [
+        "HTML5 & CSS3",
+        "JavaScript (ES6+)",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "Bootstrap",
+        "Sass"
+      ],
+      "ai": [
+        "Python (NumPy, Pandas)",
+        "TensorFlow (Bases)",
+        "Traitement de données"
+      ],
+      "tools": [
+        "Git & GitHub",
+        "Docker",
+        "Redux",
+        "React-Query",
+        "Next Auth"
+      ]
     }
   },
   "projects": {
@@ -98,5 +117,9 @@
       "Cinéma d'Auteur",
       "Veille Technologique"
     ]
+  },
+  "blog": {
+    "blog": "My personal blog",
+    "share": "Share"
   }
 }

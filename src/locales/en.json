@@ -13,7 +13,7 @@
     "name": "Ali Mohammad Esmaeeli",
     "title": "Frontend Architect",
     "description": "Crafting premium digital experiences with React and Next.js. Continuously evolving through cutting-edge projects and collaborative innovation.",
-    "downloadCV": "Download Portfolio",
+    "downloadCV": "Download Résumé",
     "contactMe": "Let's Collaborate"
   },
   "about": {
@@ -114,5 +114,9 @@
       "Cinematic Storytelling",
       "Emerging Tech Trends"
     ]
+  },
+  "blog": {
+    "blog": "My personal blog",
+    "share": "Share"
   }
 }

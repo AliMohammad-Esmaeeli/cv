@@ -12,7 +12,13 @@ export async function generateStaticParams() {
   return paths;
 }
 
-export default function BlogPost({ params }: { params: { slug: string } }) {
+interface BlogPostPageProps {
+  params: {
+    slug: string;
+  };
+}
+
+export default function BlogPost({ params }: BlogPostPageProps) {
   const post = getPostData(params.slug);
 
   return (

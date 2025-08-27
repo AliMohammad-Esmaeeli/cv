@@ -8,7 +8,7 @@ import BreadCrumbs from '@/components/blog/BreadCrumbs';
 import ShareButton from '@/components/blog/ShareButton';
 
 export async function generateStaticParams() {
-  const paths = getAllPostSlugs();
+  const paths = await getAllPostSlugs();
   return paths;
 }
 
@@ -18,8 +18,8 @@ interface BlogPostPageProps {
   };
 }
 
-export default function BlogPost({ params }: BlogPostPageProps) {
-  const post = getPostData(params.slug);
+export default async function BlogPost({ params }: BlogPostPageProps) {
+  const post = await getPostData(params.slug);
 
   return (
     <div className="min-h-dvh scroll-smooth overflow-x-hidden select-none appearance-none font-yekanBakh bg-white text-black dark:bg-stone-950 dark:text-white flex-center flex-col">

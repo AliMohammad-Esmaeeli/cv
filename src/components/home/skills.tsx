@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import {
   Card,
   CardContent,
@@ -8,7 +8,10 @@ import {
 import { Badge } from "@/components/home/ui/badge";
 import { useLanguage } from "../../locales/locales";
 
-const skillsData = {
+// Define the category keys as a type
+type SkillCategory = 'frontend' | 'ai' | 'tools';
+
+const skillsData: Record<SkillCategory, string[]> = {
   frontend: [
     "React",
     "Next.js",
@@ -37,7 +40,7 @@ export default function Skills() {
             {translations.skills.title}
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
-            {Object.entries(skillsData).map(([category, skills]) => (
+            {(Object.entries(skillsData) as [SkillCategory, string[]][]).map(([category, skills]) => (
               <Card key={category}>
                 <CardHeader>
                   <CardTitle className="text-xl">

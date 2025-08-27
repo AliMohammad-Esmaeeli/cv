@@ -13,12 +13,13 @@ export async function generateStaticParams() {
 }
 
 interface BlogPostPageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
-export default async function BlogPost({ params }: BlogPostPageProps) {
+export default async function BlogPost(props: BlogPostPageProps) {
+  const params = await props.params;
   const post = await getPostData(params.slug);
 
   return (

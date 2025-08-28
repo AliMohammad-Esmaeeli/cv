@@ -26,10 +26,12 @@ export default function Hero() {
             {translations.hero.description}
           </p>
           <div className="flex flex-col rtl:flex-col-reverse sm:flex-row sm:rtl:flex-row-reverse gap-4 justify-center">
-            <Button size="lg" className="gap-2">
-              <Download className="w-5 h-5" />
-              {translations.hero.downloadCV}
-            </Button>
+            <Link href={"/AliMohammadEsmaeeli.pdf"} download={true}>
+              <Button size="lg" className="gap-2">
+                <Download className="w-5 h-5" />
+                {translations.hero.downloadCV}
+              </Button>
+            </Link>
             <Link href="/contact">
               <Button
                 size="lg"
